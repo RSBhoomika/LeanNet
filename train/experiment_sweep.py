@@ -19,7 +19,7 @@ from train.train_mlp import (
 
 
 OUTPUT_DIR = Path("results")
-SEEDS = [42, 43, 44]
+SEEDS = list(range(42, 52))
 SPARSITIES = [0.0, 0.50, 0.75, 0.90, 0.95]
 BASELINE_EPOCHS = 100
 FINE_TUNE_EPOCHS = 10
